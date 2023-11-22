@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/buttonError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Error" />
+
+    <Button
+        android:id="@+id/buttonSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Sussess" />
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Info" />
+
+    <Button
+        android:id="@+id/buttonWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Warning" />
+
+    <Button
+        android:id="@+id/buttonNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Normal" />
+</LinearLayout>
